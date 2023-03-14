@@ -10,6 +10,12 @@ First, run the development server:
 ## Dependencies
 `npm install -D tailwindcss postcss autoprefixer`
 `npx tailwindcss init -p`
+`npm i -D prisma`
+`npx prisma init`
+`npm i @prisma/client`
+
+## Manipulations
+`npx prisma db push`
 
 
 
